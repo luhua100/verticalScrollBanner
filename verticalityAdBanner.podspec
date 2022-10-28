@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'verticalityAdBanner'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of verticalityAdBanner.'
+  s.summary          = '这是一款垂直滚动的广告视图'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  这是一款垂直滚动的广告视图
                        DESC
 
   s.homepage         = 'https://github.com/luhua100/verticalityAdBanner'
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'luhua100' => 'luhua2245@163.com' }
   s.source           = { :git => 'https://github.com/luhua100/verticalityAdBanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_versions = '5.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'verticalityAdBanner/Classes/**/*'

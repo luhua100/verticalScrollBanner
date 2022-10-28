@@ -12,6 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //MARK: -
+        
+    //在初始化cell的时候 需要传入dataSource 设置代理
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

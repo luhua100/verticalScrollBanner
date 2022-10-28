@@ -1,0 +1,16 @@
+PODS:
+  - verticalityAdBanner (0.1.0)
+
+DEPENDENCIES:
+  - verticalityAdBanner (from `../`)
+
+EXTERNAL SOURCES:
+  verticalityAdBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  verticalityAdBanner: 66a1b3ebe2c90d13b5fcd0b41077085136e1bc20
+
+PODFILE CHECKSUM: 685b3c9954e1559535a55261ff23d8159e47a7e6
+
+COCOAPODS: 1.11.2

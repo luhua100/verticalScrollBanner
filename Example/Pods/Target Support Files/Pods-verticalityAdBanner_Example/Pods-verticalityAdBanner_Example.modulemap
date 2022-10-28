@@ -1,0 +1,6 @@
+framework module Pods_verticalityAdBanner_Example {
+  umbrella header "Pods-verticalityAdBanner_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

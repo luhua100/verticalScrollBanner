@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000ED0B6359BE3BC95D0B544E7413858 /* Pods-verticalityAdBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95557A42697861696794147217CB4512 /* Pods-verticalityAdBanner_Example-dummy.m */; };
+		0E42F6F3BB45E13917432BDAB9D30081 /* LHNewsNotificationAdCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E87592465B74286C7BF3D4FBC02C6F9D /* LHNewsNotificationAdCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490BB996C20EBE9FC26D3EE8462C470F /* Pods-verticalityAdBanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A37EE3D4CA64A59E1D7D71C8C4276FD /* Pods-verticalityAdBanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D1AB6BDB02BEF2038337E70A2F16E75 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE666A7F981A564C3D1D09C15C2542 /* ReplaceMe.swift */; };
+		670DDB7F225B57A794A99C00E703D01C /* Pods-verticalityAdBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A026F201B29C0A7550C428C62BD56D24 /* Pods-verticalityAdBanner_Tests-dummy.m */; };
+		6A35B9F93996721451935EEC32A4DB3B /* LHNewsNotificationAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14376EBCFE0B0EA6443147E4565DD511 /* LHNewsNotificationAdCell.m */; };
+		77CEF185E277D4A2DE78C27F604840F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		862D36314B0D91D43244B637506BEA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0A82C49AD15BEDA9F01545BE9D0312C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3EAB255F9E29DC63D71511659A0ABDA /* verticalityAdBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24432E9D630018B8D6F5F1BA6C2122A9 /* verticalityAdBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C951D6E9891ACC053207A4388248EBD3 /* verticalityAdBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F9355ACFD2886AD26E4575BC25EE3 /* verticalityAdBanner-dummy.m */; };
+		EB14A01737D270587E608F3FA24FAE34 /* Pods-verticalityAdBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE455458C5268515320104EF1BA5FF06 /* Pods-verticalityAdBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580F0670C6592489BF71985D9E090759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A95EC67E765DA17683F7819F44CD365;
+			remoteInfo = verticalityAdBanner;
+		};
+		FDC6B8A8AAA7E33F27B55AF5D32A672B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42DE3113ED7A70784DFF5FE9D1FFE374;
+			remoteInfo = "Pods-verticalityAdBanner_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03473569C4C39C545F5FC1F579FEF540 /* Pods-verticalityAdBanner_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-verticalityAdBanner_Example"; path = Pods_verticalityAdBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBFB5E94DA16812D0FC928E3AB3406A /* Pods-verticalityAdBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-verticalityAdBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		14376EBCFE0B0EA6443147E4565DD511 /* LHNewsNotificationAdCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LHNewsNotificationAdCell.m; path = verticalityAdBanner/Classes/LHNewsNotificationAdCell.m; sourceTree = "<group>"; };
+		1C0F9355ACFD2886AD26E4575BC25EE3 /* verticalityAdBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "verticalityAdBanner-dummy.m"; sourceTree = "<group>"; };
+		24432E9D630018B8D6F5F1BA6C2122A9 /* verticalityAdBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "verticalityAdBanner-umbrella.h"; sourceTree = "<group>"; };
+		2B349A03FCFAC6FD07FEFEBD00011FAB /* verticalityAdBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = verticalityAdBanner.debug.xcconfig; sourceTree = "<group>"; };
+		334BDC589DA5A1647B8969AED1E0A5D1 /* Pods-verticalityAdBanner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-verticalityAdBanner_Tests-Info.plist"; sourceTree = "<group>"; };
+		3C7EA7F3BB02BAA0C1D8E9EB4C295AE1 /* verticalityAdBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "verticalityAdBanner-prefix.pch"; sourceTree = "<group>"; };
+		453C9A57E6C19267AC72391596ED372D /* Pods-verticalityAdBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-verticalityAdBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		457F706EF66C98F367FEBEBD3A1582B9 /* Pods-verticalityAdBanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-verticalityAdBanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A37EE3D4CA64A59E1D7D71C8C4276FD /* Pods-verticalityAdBanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-verticalityAdBanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		62E481B0514219EAF8373530DA4A485B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		790797C3B9E3143A3445F73642DDEAA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		80E18AB6F3D74582BDE8DAA1A96D2980 /* Pods-verticalityAdBanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-verticalityAdBanner_Tests.modulemap"; sourceTree = "<group>"; };
+		83F8C80F4217C245836C17756A67B82A /* Pods-verticalityAdBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-verticalityAdBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8783FDB8C1427EF950B5D885B0B6175F /* verticalityAdBanner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = verticalityAdBanner.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		8B7D891D5A5C1C1A36E44BE48E908A93 /* verticalityAdBanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = verticalityAdBanner; path = verticalityAdBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95557A42697861696794147217CB4512 /* Pods-verticalityAdBanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-verticalityAdBanner_Example-dummy.m"; sourceTree = "<group>"; };
+		960739F0BA92BF8C5047829C9C5EB894 /* Pods-verticalityAdBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-verticalityAdBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9713FF7C86B69AFAEC4D250C2682D6FF /* verticalityAdBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = verticalityAdBanner.modulemap; sourceTree = "<group>"; };
+		9889100E5ECB9348C45CA0CE2898CE6A /* Pods-verticalityAdBanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-verticalityAdBanner_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE5A414FB0BE5EBEAEFFE8881D80B8C /* Pods-verticalityAdBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-verticalityAdBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A026F201B29C0A7550C428C62BD56D24 /* Pods-verticalityAdBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-verticalityAdBanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		A21131294BCADFDAA9C9A59B33C29DD1 /* Pods-verticalityAdBanner_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-verticalityAdBanner_Tests"; path = Pods_verticalityAdBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADE666A7F981A564C3D1D09C15C2542 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = verticalityAdBanner/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		BD4BB441A68EFD0C94D124533E35EF69 /* verticalityAdBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = verticalityAdBanner.release.xcconfig; sourceTree = "<group>"; };
+		C0F03DDC4ADA61F39FD382A9DD32DFC4 /* verticalityAdBanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "verticalityAdBanner-Info.plist"; sourceTree = "<group>"; };
+		DC480AE86022B1B0E268A1D434663875 /* Pods-verticalityAdBanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-verticalityAdBanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE455458C5268515320104EF1BA5FF06 /* Pods-verticalityAdBanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-verticalityAdBanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DEDD9672EC6D80216A59B06F3AF88756 /* Pods-verticalityAdBanner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-verticalityAdBanner_Example-Info.plist"; sourceTree = "<group>"; };
+		E045C802D0E3A9DB9C343D6046848017 /* Pods-verticalityAdBanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-verticalityAdBanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E87592465B74286C7BF3D4FBC02C6F9D /* LHNewsNotificationAdCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LHNewsNotificationAdCell.h; path = verticalityAdBanner/Classes/LHNewsNotificationAdCell.h; sourceTree = "<group>"; };
+		F40BE86FA79CF8AB35C48FE57A700804 /* Pods-verticalityAdBanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-verticalityAdBanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468BDA667E269F454824F5CB03105ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A82C49AD15BEDA9F01545BE9D0312C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BCA6C0D0232AB729A0EC5AC1075436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862D36314B0D91D43244B637506BEA0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF65DD25B19E60757D92AD4312F28EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CEF185E277D4A2DE78C27F604840F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C710D93055A439C44C7501E84EEF01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7804A1D3A030DD3E0C83E29093C3098 /* Pods-verticalityAdBanner_Example */,
+				C4CF1F0478C39D7BDD4AF80E137A7A22 /* Pods-verticalityAdBanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B18C66C79815CC113CC785C352D9DE54 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9713FF7C86B69AFAEC4D250C2682D6FF /* verticalityAdBanner.modulemap */,
+				1C0F9355ACFD2886AD26E4575BC25EE3 /* verticalityAdBanner-dummy.m */,
+				C0F03DDC4ADA61F39FD382A9DD32DFC4 /* verticalityAdBanner-Info.plist */,
+				3C7EA7F3BB02BAA0C1D8E9EB4C295AE1 /* verticalityAdBanner-prefix.pch */,
+				24432E9D630018B8D6F5F1BA6C2122A9 /* verticalityAdBanner-umbrella.h */,
+				2B349A03FCFAC6FD07FEFEBD00011FAB /* verticalityAdBanner.debug.xcconfig */,
+				BD4BB441A68EFD0C94D124533E35EF69 /* verticalityAdBanner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/verticalityAdBanner";
+			sourceTree = "<group>";
+		};
+		B7804A1D3A030DD3E0C83E29093C3098 /* Pods-verticalityAdBanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9889100E5ECB9348C45CA0CE2898CE6A /* Pods-verticalityAdBanner_Example.modulemap */,
+				83F8C80F4217C245836C17756A67B82A /* Pods-verticalityAdBanner_Example-acknowledgements.markdown */,
+				E045C802D0E3A9DB9C343D6046848017 /* Pods-verticalityAdBanner_Example-acknowledgements.plist */,
+				95557A42697861696794147217CB4512 /* Pods-verticalityAdBanner_Example-dummy.m */,
+				DC480AE86022B1B0E268A1D434663875 /* Pods-verticalityAdBanner_Example-frameworks.sh */,
+				DEDD9672EC6D80216A59B06F3AF88756 /* Pods-verticalityAdBanner_Example-Info.plist */,
+				4A37EE3D4CA64A59E1D7D71C8C4276FD /* Pods-verticalityAdBanner_Example-umbrella.h */,
+				960739F0BA92BF8C5047829C9C5EB894 /* Pods-verticalityAdBanner_Example.debug.xcconfig */,
+				453C9A57E6C19267AC72391596ED372D /* Pods-verticalityAdBanner_Example.release.xcconfig */,
+			);
+			name = "Pods-verticalityAdBanner_Example";
+			path = "Target Support Files/Pods-verticalityAdBanner_Example";
+			sourceTree = "<group>";
+		};
+		C22B19870699DE3A79E801CA020F973C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7504CC54C33542FA1C53ECB0571AED0 /* verticalityAdBanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4CF1F0478C39D7BDD4AF80E137A7A22 /* Pods-verticalityAdBanner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80E18AB6F3D74582BDE8DAA1A96D2980 /* Pods-verticalityAdBanner_Tests.modulemap */,
+				F40BE86FA79CF8AB35C48FE57A700804 /* Pods-verticalityAdBanner_Tests-acknowledgements.markdown */,
+				457F706EF66C98F367FEBEBD3A1582B9 /* Pods-verticalityAdBanner_Tests-acknowledgements.plist */,
+				A026F201B29C0A7550C428C62BD56D24 /* Pods-verticalityAdBanner_Tests-dummy.m */,
+				334BDC589DA5A1647B8969AED1E0A5D1 /* Pods-verticalityAdBanner_Tests-Info.plist */,
+				DE455458C5268515320104EF1BA5FF06 /* Pods-verticalityAdBanner_Tests-umbrella.h */,
+				9DE5A414FB0BE5EBEAEFFE8881D80B8C /* Pods-verticalityAdBanner_Tests.debug.xcconfig */,
+				0DBFB5E94DA16812D0FC928E3AB3406A /* Pods-verticalityAdBanner_Tests.release.xcconfig */,
+			);
+			name = "Pods-verticalityAdBanner_Tests";
+			path = "Target Support Files/Pods-verticalityAdBanner_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C22B19870699DE3A79E801CA020F973C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FA8AAC66495FFAD734FFCD40F58D3FBB /* Products */,
+				41C710D93055A439C44C7501E84EEF01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7504CC54C33542FA1C53ECB0571AED0 /* verticalityAdBanner */ = {
+			isa = PBXGroup;
+			children = (
+				E87592465B74286C7BF3D4FBC02C6F9D /* LHNewsNotificationAdCell.h */,
+				14376EBCFE0B0EA6443147E4565DD511 /* LHNewsNotificationAdCell.m */,
+				BADE666A7F981A564C3D1D09C15C2542 /* ReplaceMe.swift */,
+				EF79CF6F43E0ECA0FBEEB3FEF4C0D15B /* Pod */,
+				B18C66C79815CC113CC785C352D9DE54 /* Support Files */,
+			);
+			name = verticalityAdBanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EF79CF6F43E0ECA0FBEEB3FEF4C0D15B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				62E481B0514219EAF8373530DA4A485B /* LICENSE */,
+				790797C3B9E3143A3445F73642DDEAA6 /* README.md */,
+				8783FDB8C1427EF950B5D885B0B6175F /* verticalityAdBanner.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FA8AAC66495FFAD734FFCD40F58D3FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03473569C4C39C545F5FC1F579FEF540 /* Pods-verticalityAdBanner_Example */,
+				A21131294BCADFDAA9C9A59B33C29DD1 /* Pods-verticalityAdBanner_Tests */,
+				8B7D891D5A5C1C1A36E44BE48E908A93 /* verticalityAdBanner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C67F7C52B2BF0B977155D8FC79EDB385 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E42F6F3BB45E13917432BDAB9D30081 /* LHNewsNotificationAdCell.h in Headers */,
+				C3EAB255F9E29DC63D71511659A0ABDA /* verticalityAdBanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15C9A7766132A85AA2701AC7FB69AF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB14A01737D270587E608F3FA24FAE34 /* Pods-verticalityAdBanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2680862BACA6D067611DC9E64232172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490BB996C20EBE9FC26D3EE8462C470F /* Pods-verticalityAdBanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A95EC67E765DA17683F7819F44CD365 /* verticalityAdBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1968649EF6F7CC47C09F673D68D9ED /* Build configuration list for PBXNativeTarget "verticalityAdBanner" */;
+			buildPhases = (
+				C67F7C52B2BF0B977155D8FC79EDB385 /* Headers */,
+				F44ADA9BDBE11978A690F755DC7D88DD /* Sources */,
+				94BCA6C0D0232AB729A0EC5AC1075436 /* Frameworks */,
+				27DF9F0DD986E748601DF0BF6DBF149C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = verticalityAdBanner;
+			productName = verticalityAdBanner;
+			productReference = 8B7D891D5A5C1C1A36E44BE48E908A93 /* verticalityAdBanner */;
+			productType = "com.apple.product-type.framework";
+		};
+		42DE3113ED7A70784DFF5FE9D1FFE374 /* Pods-verticalityAdBanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE774C759F7F4D498F781485DF665368 /* Build configuration list for PBXNativeTarget "Pods-verticalityAdBanner_Example" */;
+			buildPhases = (
+				F2680862BACA6D067611DC9E64232172 /* Headers */,
+				6249980160BC707A30362B400D06AF1A /* Sources */,
+				BF65DD25B19E60757D92AD4312F28EB0 /* Frameworks */,
+				E8ECA60F881FC6B3CC0451DE5D387168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21063AD617920E6113DE8499E93CBF5F /* PBXTargetDependency */,
+			);
+			name = "Pods-verticalityAdBanner_Example";
+			productName = Pods_verticalityAdBanner_Example;
+			productReference = 03473569C4C39C545F5FC1F579FEF540 /* Pods-verticalityAdBanner_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1086C69892AE7EE216B74912ABF7A1A /* Pods-verticalityAdBanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530480C8F5DD86130CF4070352CF434B /* Build configuration list for PBXNativeTarget "Pods-verticalityAdBanner_Tests" */;
+			buildPhases = (
+				E15C9A7766132A85AA2701AC7FB69AF1 /* Headers */,
+				7455400C391A22F8CF8B53835D0D8AAD /* Sources */,
+				468BDA667E269F454824F5CB03105ADD /* Frameworks */,
+				135C258A35BC23BF06F49C151A55FD5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCD8CCAEFBB4F7683916D5386B2C931 /* PBXTargetDependency */,
+			);
+			name = "Pods-verticalityAdBanner_Tests";
+			productName = Pods_verticalityAdBanner_Tests;
+			productReference = A21131294BCADFDAA9C9A59B33C29DD1 /* Pods-verticalityAdBanner_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FA8AAC66495FFAD734FFCD40F58D3FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42DE3113ED7A70784DFF5FE9D1FFE374 /* Pods-verticalityAdBanner_Example */,
+				E1086C69892AE7EE216B74912ABF7A1A /* Pods-verticalityAdBanner_Tests */,
+				0A95EC67E765DA17683F7819F44CD365 /* verticalityAdBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		135C258A35BC23BF06F49C151A55FD5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DF9F0DD986E748601DF0BF6DBF149C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ECA60F881FC6B3CC0451DE5D387168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6249980160BC707A30362B400D06AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000ED0B6359BE3BC95D0B544E7413858 /* Pods-verticalityAdBanner_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7455400C391A22F8CF8B53835D0D8AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670DDB7F225B57A794A99C00E703D01C /* Pods-verticalityAdBanner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44ADA9BDBE11978A690F755DC7D88DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A35B9F93996721451935EEC32A4DB3B /* LHNewsNotificationAdCell.m in Sources */,
+				4D1AB6BDB02BEF2038337E70A2F16E75 /* ReplaceMe.swift in Sources */,
+				C951D6E9891ACC053207A4388248EBD3 /* verticalityAdBanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21063AD617920E6113DE8499E93CBF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = verticalityAdBanner;
+			target = 0A95EC67E765DA17683F7819F44CD365 /* verticalityAdBanner */;
+			targetProxy = 580F0670C6592489BF71985D9E090759 /* PBXContainerItemProxy */;
+		};
+		FFCD8CCAEFBB4F7683916D5386B2C931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-verticalityAdBanner_Example";
+			target = 42DE3113ED7A70784DFF5FE9D1FFE374 /* Pods-verticalityAdBanner_Example */;
+			targetProxy = FDC6B8A8AAA7E33F27B55AF5D32A672B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05838581D41D58F9653B0E76159AE5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBFB5E94DA16812D0FC928E3AB3406A /* Pods-verticalityAdBanner_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-verticalityAdBanner_Tests/Pods-verticalityAdBanner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-verticalityAdBanner_Tests/Pods-verticalityAdBanner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D362E6524EF9C0B8B337BBF1864AF68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B349A03FCFAC6FD07FEFEBD00011FAB /* verticalityAdBanner.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/verticalityAdBanner/verticalityAdBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/verticalityAdBanner/verticalityAdBanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/verticalityAdBanner/verticalityAdBanner.modulemap";
+				PRODUCT_MODULE_NAME = verticalityAdBanner;
+				PRODUCT_NAME = verticalityAdBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F29ECCE4117CA754F899464D6E2E395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4BB441A68EFD0C94D124533E35EF69 /* verticalityAdBanner.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/verticalityAdBanner/verticalityAdBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/verticalityAdBanner/verticalityAdBanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/verticalityAdBanner/verticalityAdBanner.modulemap";
+				PRODUCT_MODULE_NAME = verticalityAdBanner;
+				PRODUCT_NAME = verticalityAdBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		912CB2ED69A36ECEE74333A40B28D408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE5A414FB0BE5EBEAEFFE8881D80B8C /* Pods-verticalityAdBanner_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-verticalityAdBanner_Tests/Pods-verticalityAdBanner_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-verticalityAdBanner_Tests/Pods-verticalityAdBanner_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		927E15548BCCEDCF3F507E3185F60DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453C9A57E6C19267AC72391596ED372D /* Pods-verticalityAdBanner_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-verticalityAdBanner_Example/Pods-verticalityAdBanner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-verticalityAdBanner_Example/Pods-verticalityAdBanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA05BA5B1A7FB1D97D27F3DC9C2923A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960739F0BA92BF8C5047829C9C5EB894 /* Pods-verticalityAdBanner_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-verticalityAdBanner_Example/Pods-verticalityAdBanner_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-verticalityAdBanner_Example/Pods-verticalityAdBanner_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1968649EF6F7CC47C09F673D68D9ED /* Build configuration list for PBXNativeTarget "verticalityAdBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D362E6524EF9C0B8B337BBF1864AF68 /* Debug */,
+				4F29ECCE4117CA754F899464D6E2E395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530480C8F5DD86130CF4070352CF434B /* Build configuration list for PBXNativeTarget "Pods-verticalityAdBanner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912CB2ED69A36ECEE74333A40B28D408 /* Debug */,
+				05838581D41D58F9653B0E76159AE5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE774C759F7F4D498F781485DF665368 /* Build configuration list for PBXNativeTarget "Pods-verticalityAdBanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05BA5B1A7FB1D97D27F3DC9C2923A0 /* Debug */,
+				927E15548BCCEDCF3F507E3185F60DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

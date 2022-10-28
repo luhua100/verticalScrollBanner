@@ -1,0 +1,6 @@
+framework module verticalityAdBanner {
+  umbrella header "verticalityAdBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
